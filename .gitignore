@@ -1,0 +1,29 @@
+# 依存関係
+/vendor/
+
+# バイナリファイル
+/digital-address-api
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# テストバイナリ
+*.test
+
+# カバレッジツール
+*.out
+
+# 認証情報とトークン
+credentials.json
+access_token.json
+
+# エディタ設定
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mac用ファイル
+.DS_Store 
